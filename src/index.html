@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS dosyasını eklemek için link etiketi -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <!-- Ana kapsayıcı -->
+    <div class="container">
+        <!-- Başlık -->
+        <h1 id="main-title">Merhaba, Dünya!</h1>
+        <p id="intro-text">Bu bir örnek web sayfasıdır.</p>
+
+        <h1>This is a Heading</h1>
+        <p>This is a paragraph.</p>
+        <h2>HTML Image</h2>
+        <br>
+        <img class="img" src="pic_trulli.png" alt="Trulli" width="500" height="333">
+        <br>
+        <br>
+        <!-- Bağlantılar -->
+        <a href="#" class="button">Bir Buton</a>
+        <br>
+        <br>
+
+        <h2>Background Image</h2>
+
+        <p>A background image for a p element:</p>
+
+        <p class="background-image-paragraph">
+            You can specify background images<br>
+            for any visible HTML element.<br>
+            In this example, the background image<br>
+            is specified for a p element.<br>
+            By default, the background-image<br>
+            will repeat itself in the direction(s)<br>
+            where it is smaller than the element<br>
+            where it is specified. (Try resizing the<br>
+            browser window to see how the<br>
+            background image behaves.
+        </p>
+
+        <!-- Form -->
+        <form id="example-form">
+            <label for="name">İsim:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit" class="button">Gönder</button>
+        </form>
+
+        <!-- Liste -->
+        <ul id="example-list">
+            <li class="list-item">Liste Elemanı 1</li>
+            <li class="list-item">Liste Elemanı 2</li>
+            <li class="list-item">Liste Elemanı 3</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
